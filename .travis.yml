@@ -4,7 +4,7 @@ jdk:
 
 addons:
   sonarcloud:
-    organization: leonardo_petraglia@hotmail.it
+    organization: leopetr95
     token: db0d060d267317506d366e115fdf665a4c5b69bf
 
 script: 
