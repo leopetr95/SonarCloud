@@ -1,4 +1,12 @@
 language: java
 jdk:
 - openjdk8
-script: ant build
+
+addons:
+  sonarcloud:
+    organization: leonardo_petraglia@hotmail.it
+    token: db0d060d267317506d366e115fdf665a4c5b69bf
+
+script: 
+- ant build
+- sonar-scanner
